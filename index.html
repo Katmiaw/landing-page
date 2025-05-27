@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="container"> 
+            <a href="#" class="logo">
+                <img src="./svg/logo.svg" alt="Nostalgi Fest Logo">
+            </a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="https://whenwewereyoung.frontgatetickets.com/" target="_blank" rel="noopener noreferrer">Tickets</a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">About</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>Welcome to Nostalgi fest!</h1>
+                        <p>Explore previous Nostalgi Fest events—each one filled with surprises and excitement. Enjoy a unique and unforgettable experience every time.</p>
+                        <button class="btn-primary">Sign up</button>
+                    </div>
+                    <!-- <div class="hero-image">
+                        <img class="placeholder"> This is a placeholder for an image
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <section class="info-section">
+            <div class="container">
+                <h2>Albums worth to try</h2>
+                <div class="info-grid">
+                    <div class="info-card">
+                        <div class="info-card-image"> <img src="https://t2.genius.com/unsafe/1680x0/https%3A%2F%2Fimages.genius.com%2F9a11c0f0f636335e5d9b759bed69bbc3.1000x1000x1.png" alt="Tsunami Sea album"></div>
+                        <p>Tsunami Sea is Spiritbox’s second studio album, following their successful Eternal Blue in 2021.</p>
+                        <br>
+                        <p> Album was officially announced in mid-November 2024.
+                        </p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-card-image"> <img src="https://t2.genius.com/unsafe/1680x0/https%3A%2F%2Fimages.genius.com%2F466e78972ac9aeaf32ef4393f0648c3a.1000x1000x1.jpg" alt="That's the spirits album"></div>
+                        <p>That’s The Spirit is BMTH’s fifth studio album.</p>
+                        <br>
+                        <p> shows a development of the sound introduced on 2013’s Sempiternal, moving away from the metal and deathcore style of older material.</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-card-image"><img src="https://t2.genius.com/unsafe/1680x0/https%3A%2F%2Fimages.genius.com%2F427bd7d426791bfce7a23c660c33e9ba.1000x1000x1.png" alt="For Those That Wish to Exist Album"></div>
+                        <p>For Those That Wish To Exist is the ninth studio album by UK metalcore band Architects.</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-card-image"><img src="https://t2.genius.com/unsafe/1680x0/https%3A%2F%2Fimages.genius.com%2F44ed201c87c576bdb9926f06f9324c54.1000x1000x1.png" alt="SO WHAT? album"></div>
+                        <p>While She Sleeps' 4th Studio Album released March 1st.
+Announced alongside opener “Anti-Social” in the music video.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="quote-section">
+            <div class="container">
+                <div class="quote-content">
+                    <blockquote>
+                        "To the holy rats and all the prophets they attract
+                        Will you ever ask, "Was I built for the whiplash?"."
+                    </blockquote>
+                    <cite>-Whiplash, Architects UK</cite>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <div class="cta-text">
+                        <h3>Call to action! It's time!</h3>
+                        <p>Sign up for our product by clicking that button right over there!</p>
+                    </div>
+                    <button class="btn-secondary">Sign up</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; NostalgiFest <span id="currentYear"></span>. All Rights Reserved.</p>
+            <p>Assignment for The Odin Project</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
